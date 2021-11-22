@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,300,600,700);
+
+
+//https://stackoverflow.com/questions/14987496/background-color-not-showing-in-print-preview
+@media print {
+  body {-webkit-print-color-adjust: exact;}
+}
+
+$profileBg:#fff;
+$skillsBg:#3d3e42;
+$profileColor:#9099a0;
+$lineBorderColor:#9099a0;
+$headColor:#66cc99;
+$boldColor:#4a4e51;
+$time:0.6s;
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 16px;
+  line-height:1.5em;
+
+}
+
+p {
+  margin: 0px;
+}
+
+
+a {
+  color: $headColor;
+}
+
+
+//Document
+div.document {
+  margin-bottom: 100px;
+}
+
+
+
+//Info
+div.header_left {
+  padding: 20px;
+  font-size: 30px;
+}
+div.header_left > p {
+  margin-top: 16px;
+}
+
+div.header_right {
+  padding: 20px;
+  text-align: right;
+}
+div.header_right > p {
+  margin: 0px;
+}
+
+
+//Section
+div.section {
+  margin-top: 20px;
+}
+
+div.section_title {
+  padding: 10px;
+  margin-left: 10px;
+  font-size: 30px;
+}
+
+div.line_container {
+  border-top: solid;
+}
+
+div.paragraph_head {
+  font-family: 'Varela Round', sans-serif;
+  color: $headColor;
+  padding: 20px;
+  border-right: dashed $lineBorderColor;
+}
+
+div.paragraph_content {
+  padding: 20px
+}
+
