@@ -1,5 +1,7 @@
 
+const HEAD = 3;
 export const grid = {
-    head:3,
-    content:9
+    margin:0,
+    head:HEAD,
+    content:12 - HEAD
 }

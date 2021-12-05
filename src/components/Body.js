@@ -43,10 +43,10 @@ function Section (props) {
     paragraphs.push(<Paragraph key={start} lines={lines.slice(start)}/>);
 
     return (
-        <>
+        <div className={style.section}>
             <h2>{sectionTitle}</h2>
             {paragraphs}
-        </>
+        </div>
     )
 }
 
