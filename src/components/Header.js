@@ -13,7 +13,7 @@ export default function Header(props) {
         <Row>
             <Col xs={grid.head}>
                 <div className={style.left_header}>
-                    <img src={process.env.PUBLIC_URL + "img/picture.jpg"} style={{maxWidth:"100%"}}/>
+                    <img src={process.env.PUBLIC_URL + "/img/picture.jpg"} style={{maxWidth:"100%"}}/>
                 </div>
             </Col>
             <Col xs={12 - grid.head}>

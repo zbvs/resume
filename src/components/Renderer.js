@@ -24,7 +24,7 @@ export default function Renderer() {
 
         const headerLines = lines.slice(0, lines.indexOf(bodyDivider) - 1);
         const bodyLines = lines.slice(lines.indexOf(bodyDivider) + 1);
-        console.log(headerLines);
+
         rendered = (
             <>
                 <Header lines={headerLines}/>
@@ -32,6 +32,7 @@ export default function Renderer() {
             </>
         )
     }
+
     return (
         <div>
             {rendered}
