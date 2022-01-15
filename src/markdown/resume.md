@@ -51,7 +51,7 @@ Github : [https://github.com/zbvs](https://github.com/zbvs)
 
 ### Fronend
 - Javascript, HTML, CSS
-- React, Redux
+- React
 
 ## 경력
 ### 2019.05 ~ 2020.11 
